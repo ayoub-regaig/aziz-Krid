@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Jewelry Shop</title>
+</head>
+
+<body>
+    <div class="row ">
+        <div class="col-1 d-flex flex-nowrap b-example-vr">
+            <div style="width: 50%;" class="d-flex  flex-column flex-shrink-0 bg-light" >
+                <a href="/" class="d-block link-dark text-center text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
+                    <img src="/logo.png" style="padding: 0.7rem; max-width: 100%; mix-blend-mode: multiply;">
+                </a>
+                <ul class="nav my-auto nav-pills nav-flush flex-column mb-auto text-center">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link py-3 border-bottom rounded-0" aria-current="page" title="Nouvelle Commande" data-bs-toggle="tooltip" data-bs-placement="right">
+                        <i style="font-size: 1.4rem; margin-right: 0.2rem; margin-left: 0.2rem" class="fa-solid fa-plus"></i>                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link active py-3 border-bottom rounded-0" title="Gérer les produits" data-bs-toggle="tooltip" data-bs-placement="right">
+                        <i style="font-size: 1.4rem; margin-right: 0.2rem; margin-left: 0.2rem" class="fa-solid fa-pen-to-square"></i>                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link py-3 border-bottom rounded-0" title="Orders" data-bs-toggle="tooltip" data-bs-placement="right">
+                        <i style="font-size: 1.4rem; margin-right: 0.2rem; margin-left: 0.2rem" class="fa-solid fa-list"></i>                    </a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+        <div class="col-11">
+            <div class="demo-content bg-alt">
+                <div class="row top-part">
+                    <div class="col-8">
+                      <h2 style="font-weight: bold; font-size: 30px;">Gérer vos produits</h2>
+                      <h5 style="font-size: 23px;line-height: 0;">Ajouter, Supprimer, Editer votre base de donnée</h5>
+                    </div>
+                    <div class="col-4" style="position: relative;">
+                        <input class="inputSearch" placeholder="Rechercher ici...">
+                        <i class="fa fa-search icon errspan"></i>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="categoryBtn"><i class="fa-solid fa-plus" style="margin-right: 0.7rem;"></i>Ajouter un nouveau produit</button>
+                    <button class="categoryBtn active"><i class="fa-solid fa-gear" style="margin-right: 0.7rem;"></i>Gérer les catégories</button>
+                </div>
+                <br>
+                <div class="row container">
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nom du produit:</th>
+                            <th scope="col">Catégorie du produit:</th>
+                            <th scope="col">Actions:</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Bracelet Gold</td>
+                            <td>Or</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Bracelet Metale</td>
+                            <td>Metal</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Bracelet Metale</td>
+                            <td>Metal</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Bracelet Gold</td>
+                            <td>Or</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Bracelet Metale</td>
+                            <td>Metal</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Bracelet Metale</td>
+                            <td>Metal</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Bracelet Gold</td>
+                            <td>Or</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Bracelet Metale</td>
+                            <td>Metal</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Bracelet Metale</td>
+                            <td>Metal</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Bracelet Gold</td>
+                            <td>Or</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Bracelet Metale</td>
+                            <td>Metal</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Bracelet Metale</td>
+                            <td>Metal</td>
+                            <td><button class="tableButton">Modifier</button><button class="tableButton" style="margin-left: 0.3rem;">Supprimer</button></td>
+                          </tr>
+                        </tbody>
+                      </table>                  
+                </div>
+            </div>
+        </div>
+        </div>
+            </div>
+            
+        </div>
+    </div>
+        <main class="">
+        </main>
+        
+        
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</html>
