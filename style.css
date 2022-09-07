@@ -182,10 +182,6 @@ main {
   height: auto;
 }
 
-.card{
-  box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);    
-  height: 900px;
-}
 
 .ui-product-color {
   display: inline-block;
@@ -285,4 +281,19 @@ main {
 #container {
   height: 100%;
   border-collapse: collapse;
+}
+
+.card-img-top {
+  aspect-ratio : 1 / 1;
+  width:100%;
+}
+
+.card {
+  border-radius: 25px;
+  margin: 0.5rem;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 1.2rem;
 }
