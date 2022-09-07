@@ -4,6 +4,55 @@ body {
   font-family: Gilroy;
 }
 
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
 .row {
   --bs-gutter-x: 0 !important;
 }
@@ -72,8 +121,6 @@ main {
 }
 
 .nav-link {
-  margin-right: 15px;
-  margin-left: 15px;
   margin-bottom: 15px;
   color: black;
   border-radius: 25px !important;
@@ -96,7 +143,7 @@ main {
 .errspan {
       position: absolute;
       left: 20px;
-      top: 30px;
+      top: 19px;
       color: gray;
 }
 .top-part {
@@ -117,8 +164,11 @@ main {
   box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.3);
   border-radius: 25px;
   border: none;
-  padding: 0.9rem;
   margin-left: 1rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .categoryBtn.active {
   background: #FFCA40;
@@ -158,4 +208,81 @@ main {
   height: 110%;
   background-color: #FFCA40;
   border-radius: 30px;
+}
+
+.singleProduct {
+  width: 100%;
+  background-color: white;
+  border-radius: 25px;
+  margin-bottom: 0.8rem;
+}
+
+.card-img-top {
+  border-radius: 25px;
+}
+
+.qty {
+  width: 100%;
+  border-radius: 25px;
+  background-color: #F8F8F7;
+  border: none;
+  padding: 5%;
+  text-align: center;
+}
+.buynow {
+  background: #FFCA40;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  padding: 0.7rem;
+  width: 80%;
+  margin-top: 0.7rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.buynow:hover {
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.3);
+}
+
+.qtyContainer {
+  margin-left: 0.5rem;
+}
+
+.priceContainer {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.productTitle  {
+  margin-bottom: 0.7rem;
+}
+
+.sub {
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0.7rem;
+}
+
+.total {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  font-size: 1.3rem;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0.7rem;
+}
+
+
+.centered-element {
+  margin: 0; 
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+#container {
+  height: 100%;
+  border-collapse: collapse;
 }

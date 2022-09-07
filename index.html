@@ -9,60 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Jewelry Shop</title>
 </head>
-<style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-
-    .b-example-divider {
-      height: 3rem;
-      background-color: rgba(0, 0, 0, .1);
-      border: solid rgba(0, 0, 0, .15);
-      border-width: 1px 0;
-      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-    }
-
-    .b-example-vr {
-      height: 100vh;
-    }
-
-    .bi {
-      vertical-align: -.125em;
-      fill: currentColor;
-    }
-
-    .nav-scroller {
-      position: relative;
-      z-index: 2;
-      height: 2.75rem;
-      overflow-y: hidden;
-    }
-
-    .nav-scroller .nav {
-      display: flex;
-      flex-wrap: nowrap;
-      padding-bottom: 1rem;
-      margin-top: -1px;
-      overflow-x: auto;
-      text-align: center;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-    }
-  </style>
 <body>
     <div class="row ">
-        <div class="col-sm-1 d-flex flex-nowrap b-example-vr">
-            <div style="width: 100%;" class="d-flex  flex-column flex-shrink-0 bg-light" >
+        <div class="col-1 d-flex flex-nowrap b-example-vr">
+            <div style="width: 50%;" class="d-flex  flex-column flex-shrink-0 bg-light" >
                 <a href="/" class="d-block link-dark text-center text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
                     <img src="/logo.png" style="padding: 0.7rem; max-width: 100%; mix-blend-mode: multiply;">
                 </a>
@@ -82,12 +33,12 @@
                 </ul>
               </div>
         </div>
-        <div class="col-sm-9">
+        <div class="col-8">
             <div class="demo-content bg-alt">
                 <div class="row top-part">
                     <div class="col-8">
-                      <h2 style="font-weight: bold;">Bonjour, Youssef!</h2>
-                      <h5 >Créez une nouvelle commande</h5>
+                      <h2 style="font-weight: bold; font-size: 30px;">Bonjour, Youssef!</h2>
+                      <h5 style="font-size: 23px;line-height: 0;">Créez une nouvelle commande</h5>
                     </div>
                     <div class="col-4" style="position: relative;">
                         <input class="inputSearch" placeholder="Rechercher ici...">
@@ -104,103 +55,191 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-2">
-            <div class="demo-content"></div>
-            <div class="container px-3 my-5 clearfix">
-              <div class="card">
-                  <div class="card-header">
-                      <h2>details de la commande</h2>
-                  </div>
-                  <div class="card-body">
-                      <div class="table-responsive">
-                        <table class="table table-bordered m-0">
-                          <thead>
-                            <tr>
-
-                              <th class="text-right py-3 px-4" style="width: 200px;">Price</th>
-                              <th class="text-center py-3 px-4" style="width: 220px;">Quantity</th>
-                              <th class="text-center align-middle py-3 px-0" style="width: 40px;"><a href="#" class="shop-tooltip float-none text-light" title="" data-original-title="Clear cart"><i class="ino ion-md-trash"></i></a></th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                  
-                            <tr>
-                              <td class="p-4">
-                                <div class="media align-items-center">
-                                  <img src="https://images-aka.zales.com/lpu/rings_update/zlp_rings_style_promise_m.jpg" class="d-block ui-w-40 ui-bordered mr-4" alt="">
-                                  <div class="media-body">
-                                    <a href="#" class="d-block text-dark">Product 1</a>
-
-                                  </div>
+        <div class="col-3 d-flex flex-nowrap b-example-vr">
+            <div style="width: 100%;" class="d-flex  flex-column flex-shrink-0 bg-light" >
+              <div class="clearfix">
+                <div class="top-part">
+                  <div class="row">
+                    <div class="col-12">
+                      <h2 style="font-weight: bold; font-size: 30px; line-height: 0.9;">Détails de la commande</h2>
+                    </div>
+                </div>
+                <table id="container">
+                  <tr >
+                      <td style="overflow:auto; height: 50px;" valign="top">
+                      
+                <div class="singleProduct">
+                  <div class="" style="max-width: 500px;">
+                    <div class="row g-0" style=" position: relative;">
+                        <div class="col-sm-5">
+                            <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2021103/rs_1200x1200-211103080940-1200-Ecomm-Bestselling-Amazon-Jewelry.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" class="card-img-top h-100" alt="...">
+                        </div>
+                        <div class="col-sm-7 text-center">
+                          <div class="card-body">
+                            <table class="tg">
+                              <thead>
+                                <tr>
+                                  <th class="tg-0lax card-title productTitle" style="padding: 0.5rem;" colspan="2">Bracelet Style Etoile</th>
+                                </tr>
+                              </thead>
+                              <tbody class="card-body">
+                                <div class="row">
+                                  <tr class="col-5 qtyContainer">
+                                    <td class="tg-0lax">Quantité:</td>
+                                    <td class="tg-0lax"><input type="number" class="qty " placeholder="Qty:"></td>
+                                  </tr>
+                                  <tr class="col-5 priceContainer">
+                                    <td class="tg-0lax">Prix:</td>
+                                    <td class="tg-0lax"><input type="number" class="qty " placeholder="TND"></td>
+                                  </tr>
                                 </div>
-                              </td>
-                              <td class="text-right font-weight-semibold align-middle p-4"><input type="text" class="form-control text-center" value="$57.55"></td>
-                              <td class="align-middle p-4"><input type="text" class="form-control text-center" value="2"></td>
-                              <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
-                            </tr>
-                  
-                            <tr>
-                              <td class="p-4">
-                                <div class="media align-items-center">
-                                  <img src="https://images-aka.zales.com/lpu/rings_update/zlp_rings_style_promise_m.jpg" class="d-block ui-w-40 ui-bordered mr-4" alt="">
-                                  <div class="media-body">
-                                    <a href="#" class="d-block text-dark">Product 2</a>
-
-                                  </div>
-                                </div>
-                              </td>
-                              <td class="text-right font-weight-semibold align-middle p-4"><input type="text" class="form-control text-center" value="$57.55"></td>
-                              <td class="align-middle p-4"><input type="text" class="form-control text-center" value="1"></td>
-                              <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
-                            </tr>
-                  
-                            <tr>
-                              <td class="p-4">
-                                <div class="media align-items-center">
-                                  <img src="https://images-aka.zales.com/lpu/rings_update/zlp_rings_style_promise_m.jpg" class="d-block ui-w-40 ui-bordered mr-4" alt="">
-                                  <div class="media-body">
-                                    <a href="#" class="d-block text-dark">Product 3</a>
-
-                                  </div>
-                                </div>
-                              </td>
-                              <td class="text-right font-weight-semibold align-middle p-4"><input type="text" class="form-control text-center" value="$57.55"></td>
-                              <td class="align-middle p-4"><input type="text" class="form-control text-center" value="1"></td>
-                              <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
-                            </tr>
-                  
-                          </tbody>
-                        </table>
-                      </div>
-
-                  
-                      <div class="d-flex flex-wrap justify-content-between align-items-center pb-4">
-                        <div class="d-flex">
-                          <div class="text-right mt-4 mr-5">
-                            <label class="text-muted font-weight-normal m-0">taxes</label>
-                            <div class="text-large"><strong>$20</strong></div>
-                          </div>
-                          <div class="text-right mt-4">
-                            <label class="text-muted font-weight-normal m-0">Montant total</label>
-                            <div class="text-large"><strong>$1164.65</strong></div>
+                              </tbody>
+                            </table>
                           </div>
                         </div>
                       </div>
-                  
-                      <div class="float-right">
-                        <button type="button" class="btn2">Confirmer la commande</button>
-                      </div>
-                  
                     </div>
                 </div>
-            </div>
-
-
-
-
-
-
+                <div class="singleProduct">
+                  <div class="" style="max-width: 500px;">
+                    <div class="row g-0" style=" position: relative;">
+                        <div class="col-sm-5">
+                            <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2021103/rs_1200x1200-211103080940-1200-Ecomm-Bestselling-Amazon-Jewelry.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" class="card-img-top h-100" alt="...">
+                        </div>
+                        <div class="col-sm-7 text-center">
+                          <div class="card-body">
+                            <table class="tg">
+                              <thead>
+                                <tr>
+                                  <th class="tg-0lax card-title productTitle" style="padding: 0.5rem;" colspan="2">Bracelet Style Etoile</th>
+                                </tr>
+                              </thead>
+                              <tbody class="card-body">
+                                <div class="row">
+                                  <tr class="col-5 qtyContainer">
+                                    <td class="tg-0lax">Quantité:</td>
+                                    <td class="tg-0lax"><input type="number" class="qty " placeholder="Qty:"></td>
+                                  </tr>
+                                  <tr class="col-5 priceContainer">
+                                    <td class="tg-0lax">Prix:</td>
+                                    <td class="tg-0lax"><input type="number" class="qty " placeholder="TND"></td>
+                                  </tr>
+                                </div>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
+                <div class="singleProduct">
+                  <div class="" style="max-width: 500px;">
+                    <div class="row g-0" style=" position: relative;">
+                        <div class="col-sm-5">
+                            <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2021103/rs_1200x1200-211103080940-1200-Ecomm-Bestselling-Amazon-Jewelry.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" class="card-img-top h-100" alt="...">
+                        </div>
+                        <div class="col-sm-7 text-center">
+                          <div class="card-body">
+                            <table class="tg">
+                              <thead>
+                                <tr>
+                                  <th class="tg-0lax card-title productTitle" style="padding: 0.5rem;" colspan="2">Bracelet Style Etoile</th>
+                                </tr>
+                              </thead>
+                              <tbody class="card-body">
+                                <div class="row">
+                                  <tr class="col-5 qtyContainer">
+                                    <td class="tg-0lax">Quantité:</td>
+                                    <td class="tg-0lax"><input type="number" class="qty " placeholder="Qty:"></td>
+                                  </tr>
+                                  <tr class="col-5 priceContainer">
+                                    <td class="tg-0lax">Prix:</td>
+                                    <td class="tg-0lax"><input type="number" class="qty " placeholder="TND"></td>
+                                  </tr>
+                                </div>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="singleProduct">
+                  <div class="" style="max-width: 500px;">
+                    <div class="row g-0" style=" position: relative;">
+                        <div class="col-sm-5">
+                            <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2021103/rs_1200x1200-211103080940-1200-Ecomm-Bestselling-Amazon-Jewelry.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" class="card-img-top h-100" alt="...">
+                        </div>
+                        <div class="col-sm-7 text-center">
+                          <div class="card-body">
+                            <table class="tg">
+                              <thead>
+                                <tr>
+                                  <th class="tg-0lax card-title productTitle" style="padding: 0.5rem;" colspan="2">Bracelet Style Etoile</th>
+                                </tr>
+                              </thead>
+                              <tbody class="card-body">
+                                <div class="row">
+                                  <tr class="col-5 qtyContainer">
+                                    <td class="tg-0lax">Quantité:</td>
+                                    <td class="tg-0lax"><input type="number" class="qty " placeholder="Qty:"></td>
+                                  </tr>
+                                  <tr class="col-5 priceContainer">
+                                    <td class="tg-0lax">Prix:</td>
+                                    <td class="tg-0lax"><input type="number" class="qty " placeholder="TND"></td>
+                                  </tr>
+                                </div>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                  </td>
+                </tr>
+                <tr>
+                    <td valign="bottom">
+                    
+                <div class="calculatrice">
+                  <div class="sub">
+                    <table style="width: 100%;">
+                      <tbody>
+                      <tr>
+                      <td>&nbsp;Subtotal:</td>
+                      <td  style="text-align: right;">&nbsp;122,548TND</td>
+                      </tr>
+                      <tr>
+                      <td>&nbsp;Taxes</td>
+                      <td style="text-align: right;">&nbsp;125,000TND</td>
+                      </tr>
+                      </tbody>
+                      </table>
+                  </div>
+                  <div class="total">
+                      <table style="width: 100%; ">
+                        <tbody>
+                        <tr>
+                        <td>&nbsp;Total:</td>
+                        <td  style="text-align: right; ">&nbsp;122,548TND</td>
+                        </tr>
+                        <tr>
+                        </tbody>
+                        </table>
+                  </div>
+                  <div class="text-center" style="width: 100%;">
+                    <button class="buynow">Achetez maintenant</button>
+                  </div>
+                </div>
+                    </td>
+                  </tr>
+          </table>  
+              </div>
+                    
+                  </div>
+              </div>
+              </div>
+        </div>
             </div>
             
         </div>
