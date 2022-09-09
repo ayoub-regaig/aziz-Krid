@@ -114,6 +114,7 @@ main {
 
 .nav-link.active {
   background-color: #FFCA40 !important;
+  padding-top: 100%;
 }
 
 .nav-link:hover {
@@ -121,6 +122,8 @@ main {
 }
 
 .nav-link {
+  line-height: 0.9rem; 
+  font-weight: bold;
   margin-bottom: 15px;
   color: black;
   border-radius: 25px !important;
@@ -152,7 +155,7 @@ main {
 .buttons {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
@@ -164,7 +167,7 @@ main {
   box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.3);
   border-radius: 25px;
   border: none;
-  margin-left: 1rem;
+  margin-left: 10px;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
   padding-top: 0.5rem;
@@ -398,4 +401,8 @@ main {
   .tableButton:hover {
     background-color: #ffca40;
     box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.3);
+  }
+
+  .middleContent {
+    justify-content: center
   }
