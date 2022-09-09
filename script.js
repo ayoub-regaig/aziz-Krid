@@ -7,3 +7,9 @@
     })
   })()
   
+  new TomSelect("#select-beast",{
+    sortField: {
+      field: "text",
+      direction: "asc"
+    }
+  });
